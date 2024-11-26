@@ -91,7 +91,7 @@ public:
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 if (space[i][j] != 'x' && space[i][j] != '0') {
-                    return false; // The game is still ongoing
+                    return false; 
                 }
             }
         }
